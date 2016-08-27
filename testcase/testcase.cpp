@@ -28,9 +28,3 @@ TEST_F(MultiplyTest, findMean2)
 	a = print_test();
 	EXPECT_EQ(0, a);
 }
-TEST_F(MultiplyTest, findMean3)
-{
-	int a;
-	a = print_test();
-	EXPECT_EQ(0, a);
-}
