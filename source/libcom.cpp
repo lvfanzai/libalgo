@@ -23,7 +23,7 @@ void float_swap(float *first, float *second)
 	*second = tmp;
 }
 
-//√∞≈›À„∑®
+//√∞≈›≈≈–ÚÀ„∑®
 void bubble_sort_tmp(int data[], int n)
 { 
 	int i = 0;
@@ -57,3 +57,4 @@ void bubble_sort(int data[], int n)
 		}
 	}
 }
+
