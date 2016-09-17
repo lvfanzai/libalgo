@@ -58,3 +58,21 @@ void bubble_sort(int data[], int n)
 	}
 }
 
+void quick_sort(int data[],int n)
+{
+
+}
+
+void insertion_sort(int data[], int n)
+{
+	int i, j, key;
+	for (j = 1; j < n; j++) {
+		key = data[j];
+		i = j - 1;
+		while ((i >= 0) && (data[i] > key)) {
+			data[i + 1] = data[i];
+			i--;
+		}
+		data[i+1] = key;
+	}
+}
